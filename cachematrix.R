@@ -22,7 +22,6 @@ makeCacheMatrix <- function(x = matrix()) {
        getinverse = getinverse)
 }
 
-v
 ## Checks to see if the inverse is already computed by getting the value of m from makeCacheMatrix
 ## If cache value is not availabe, Inverse is computed here
 
@@ -38,4 +37,3 @@ cacheSolve <- function(x, ...) {
   x$setinverse(m)
   m
 }
-
